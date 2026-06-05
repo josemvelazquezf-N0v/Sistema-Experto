@@ -1,0 +1,258 @@
+{
+  "preguntas": [
+
+    {
+      "id": "num_trabajadores",
+      "texto": "¿Cuántos trabajadores tiene el centro de trabajo?",
+      "opciones": [
+        { "etiqueta": "Menos de 15",    "valor": "menos_de_15" },
+        { "etiqueta": "Entre 16 y 100", "valor": "16_a_100"   },
+        { "etiqueta": "Más de 100",     "valor": "mas_de_100" }
+      ]
+    },
+
+    {
+      "id": "giro",
+      "texto": "¿Cuál es el giro principal del centro de trabajo?",
+      "opciones": [
+        { "etiqueta": "Industria / manufactura",  "valor": "industria"    },
+        { "etiqueta": "Comercio / servicios",     "valor": "comercio"     },
+        { "etiqueta": "Construcción",             "valor": "construccion" },
+        { "etiqueta": "Oficina / administración", "valor": "oficina"      },
+        { "etiqueta": "Agricultura / campo",      "valor": "agricultura"  }
+      ]
+    },
+
+    {
+      "id": "usa_maquinaria",
+      "texto": "¿Se utilizan máquinas o equipos con partes móviles (tornos, prensas, bandas, compresoras)?",
+      "opciones": [
+        { "etiqueta": "Sí", "valor": "si" },
+        { "etiqueta": "No", "valor": "no" }
+      ]
+    },
+
+    {
+      "id": "usa_maquinaria_carga",
+      "texto": "¿Se utilizan equipos motorizados para mover o almacenar materiales (montacargas, grúas, bandas transportadoras, paletizadoras)?",
+      "opciones": [
+        { "etiqueta": "Sí", "valor": "si" },
+        { "etiqueta": "No", "valor": "no" }
+      ]
+    },
+
+    {
+      "id": "maneja_quimicos",
+      "texto": "¿Se manejan, transportan o almacenan sustancias químicas peligrosas (solventes, ácidos, gases comprimidos, inflamables)?",
+      "opciones": [
+        { "etiqueta": "Sí", "valor": "si" },
+        { "etiqueta": "No", "valor": "no" }
+      ]
+    },
+
+    {
+      "id": "procesos_quimicos",
+      "texto": "¿Las sustancias químicas peligrosas forman parte de un proceso productivo continuo (no solo almacenamiento)?",
+      "condicion_previa": "maneja_quimicos",
+      "opciones": [
+        { "etiqueta": "Sí, proceso continuo con químicos peligrosos", "valor": "si_continuo"  },
+        { "etiqueta": "Sí, uso ocasional en procesos",                "valor": "si_ocasional" },
+        { "etiqueta": "No, solo almacenamiento o transporte",         "valor": "no"           }
+      ]
+    },
+
+    {
+      "id": "trabaja_altura",
+      "texto": "¿Se realizan trabajos en superficies elevadas a más de 1.80 m del nivel del piso (techos, andamios, estructuras)?",
+      "opciones": [
+        { "etiqueta": "Sí", "valor": "si" },
+        { "etiqueta": "No", "valor": "no" }
+      ]
+    },
+
+    {
+      "id": "riesgo_incendio",
+      "texto": "¿El centro de trabajo maneja materiales inflamables, combustibles o tiene procesos que generen calor, chispa o flama?",
+      "opciones": [
+        { "etiqueta": "Sí", "valor": "si" },
+        { "etiqueta": "No", "valor": "no" }
+      ]
+    },
+
+    {
+      "id": "recipientes_presion",
+      "texto": "¿Se utilizan recipientes sujetos a presión, calderas, autoclaves o equipos criogénicos?",
+      "opciones": [
+        { "etiqueta": "Sí", "valor": "si" },
+        { "etiqueta": "No", "valor": "no" }
+      ]
+    },
+
+    {
+      "id": "electricidad_estatica",
+      "texto": "¿Hay procesos que generen o acumulen electricidad estática (manejo de solventes, pinturas, polvos, plásticos, textiles)?",
+      "opciones": [
+        { "etiqueta": "Sí", "valor": "si" },
+        { "etiqueta": "No", "valor": "no" }
+      ]
+    },
+
+    {
+      "id": "soldadura_corte",
+      "texto": "¿Se realizan actividades de soldadura, corte con flama o corte con arco eléctrico?",
+      "opciones": [
+        { "etiqueta": "Sí, de forma habitual",   "valor": "si_habitual"   },
+        { "etiqueta": "Sí, de forma ocasional",  "valor": "si_ocasional"  },
+        { "etiqueta": "No",                      "valor": "no"            }
+      ]
+    },
+
+    {
+      "id": "instalaciones_electricas",
+      "texto": "¿El centro de trabajo tiene instalaciones eléctricas que requieran mantenimiento por personal interno?",
+      "opciones": [
+        { "etiqueta": "Sí, subestaciones, tableros o líneas de media/alta tensión", "valor": "media_alta"   },
+        { "etiqueta": "Sí, instalaciones eléctricas convencionales (127/220V)",     "valor": "convencional" },
+        { "etiqueta": "No, el mantenimiento lo realiza proveedor externo",          "valor": "no"           }
+      ]
+    },
+
+    {
+      "id": "espacios_confinados",
+      "texto": "¿Existen espacios confinados en las instalaciones (tanques, fosas, silos, túneles, cámaras)?",
+      "opciones": [
+        { "etiqueta": "Sí", "valor": "si" },
+        { "etiqueta": "No", "valor": "no" }
+      ]
+    },
+
+    {
+      "id": "trabajadores_discapacidad",
+      "texto": "¿El centro de trabajo tiene o planea incorporar trabajadores con algún tipo de discapacidad?",
+      "opciones": [
+        { "etiqueta": "Sí, actualmente hay trabajadores con discapacidad", "valor": "si_actual" },
+        { "etiqueta": "Sí, está planeado incorporarlos",                   "valor": "si_futuro" },
+        { "etiqueta": "No",                                                "valor": "no"        }
+      ]
+    },
+
+    {
+      "id": "exposicion_ruido",
+      "texto": "¿Los trabajadores están expuestos a ruido generado por maquinaria, equipos o procesos durante la jornada?",
+      "opciones": [
+        { "etiqueta": "Sí, de forma continua o frecuente (más de 2 horas/día)", "valor": "si_continuo"   },
+        { "etiqueta": "Sí, pero de forma esporádica (menos de 2 horas/día)",    "valor": "si_esporadico" },
+        { "etiqueta": "No",                                                     "valor": "no"            }
+      ]
+    },
+
+    {
+      "id": "agentes_quimicos_aire",
+      "texto": "¿Existen agentes químicos contaminantes en el aire del área de trabajo (polvos, humos, vapores, nieblas, gases)?",
+      "opciones": [
+        { "etiqueta": "Sí, de forma habitual en el proceso productivo", "valor": "si_habitual"  },
+        { "etiqueta": "Sí, de forma esporádica",                        "valor": "si_esporadico"},
+        { "etiqueta": "No",                                             "valor": "no"           }
+      ]
+    },
+
+    {
+      "id": "radiacion_ionizante",
+      "texto": "¿Se utilizan fuentes de radiación ionizante (equipos de rayos X industriales o médicos, materiales radiactivos, aceleradores)?",
+      "opciones": [
+        { "etiqueta": "Sí", "valor": "si" },
+        { "etiqueta": "No", "valor": "no" }
+      ]
+    },
+
+    {
+      "id": "radiacion_no_ionizante",
+      "texto": "¿Hay exposición habitual a fuentes de radiación no ionizante (láseres industriales, radiación UV, hornos de microondas industriales, radiofrecuencia)?",
+      "opciones": [
+        { "etiqueta": "Sí", "valor": "si" },
+        { "etiqueta": "No", "valor": "no" }
+      ]
+    },
+
+    {
+      "id": "presiones_anormales",
+      "texto": "¿Se realizan trabajos en ambientes con presión diferente a la atmosférica normal (buceo, cámaras hiperbáricas, trabajos en altitud extrema)?",
+      "opciones": [
+        { "etiqueta": "Sí", "valor": "si" },
+        { "etiqueta": "No", "valor": "no" }
+      ]
+    },
+
+    {
+      "id": "condiciones_termicas",
+      "texto": "¿Los trabajadores están expuestos a condiciones térmicas extremas de forma habitual?",
+      "opciones": [
+        { "etiqueta": "Sí, calor extremo (hornos, fundición, trabajo exterior en verano)", "valor": "calor"  },
+        { "etiqueta": "Sí, frío extremo (cámaras frigoríficas, trabajo en zonas frías)",   "valor": "frio"   },
+        { "etiqueta": "Ambos según el área o temporada",                                   "valor": "ambos"  },
+        { "etiqueta": "No",                                                                "valor": "no"     }
+      ]
+    },
+
+    {
+      "id": "exposicion_vibraciones",
+      "texto": "¿Los trabajadores operan equipos o herramientas que transmitan vibraciones de forma habitual?",
+      "opciones": [
+        { "etiqueta": "Sí, vibraciones en cuerpo completo (vehículos, maquinaria pesada)", "valor": "cuerpo_completo" },
+        { "etiqueta": "Sí, vibraciones en mano-brazo (martillos neumáticos, pulidoras)",   "valor": "mano_brazo"     },
+        { "etiqueta": "Ambos tipos",                                                       "valor": "ambos"          },
+        { "etiqueta": "No",                                                                "valor": "no"             }
+      ]
+    },
+
+    {
+      "id": "iluminacion",
+      "texto": "¿Existen áreas de trabajo donde la iluminación pudiera ser insuficiente para las tareas realizadas?",
+      "opciones": [
+        { "etiqueta": "Sí, hay áreas con iluminación claramente deficiente",  "valor": "si_deficiente" },
+        { "etiqueta": "No se ha evaluado formalmente",                        "valor": "no_evaluado"   },
+        { "etiqueta": "No, la iluminación es adecuada en todas las áreas",    "valor": "adecuada"      }
+      ]
+    },
+
+    {
+      "id": "trabajo_pantallas",
+      "texto": "¿Los trabajadores usan computadoras, tablets u otras pantallas de visualización más de 4 horas continuas por jornada?",
+      "opciones": [
+        { "etiqueta": "Sí, la mayoría del tiempo de la jornada", "valor": "si_mayoria" },
+        { "etiqueta": "Sí, aproximadamente la mitad de jornada", "valor": "si_mitad"   },
+        { "etiqueta": "No",                                      "valor": "no"         }
+      ]
+    },
+
+    {
+      "id": "manejo_manual_cargas",
+      "texto": "¿Los trabajadores levantan, empujan, jalan o cargan materiales de forma manual y repetitiva?",
+      "opciones": [
+        { "etiqueta": "Sí, cargas pesadas (más de 25 kg) de forma habitual",      "valor": "si_pesado"    },
+        { "etiqueta": "Sí, cargas moderadas con movimientos repetitivos",         "valor": "si_moderado"  },
+        { "etiqueta": "No, el manejo de materiales es principalmente mecanizado",  "valor": "no"           }
+      ]
+    },
+
+    {
+      "id": "modalidad_teletrabajo",
+      "texto": "¿Hay trabajadores que laboran desde su domicilio u otro lugar fuera del centro de trabajo al menos el 40% de su jornada?",
+      "opciones": [
+        { "etiqueta": "Sí", "valor": "si" },
+        { "etiqueta": "No", "valor": "no" }
+      ]
+    },
+
+    {
+      "id": "factores_psicosociales",
+      "texto": "¿Se han identificado o reportado situaciones de carga de trabajo excesiva, acoso laboral, jornadas extensas o violencia en el trabajo?",
+      "opciones": [
+        { "etiqueta": "Sí, han sido reportadas formalmente",         "valor": "si_reportado"  },
+        { "etiqueta": "Hay indicios pero no reportes formales",      "valor": "si_indicios"   },
+        { "etiqueta": "No se han identificado",                      "valor": "no"            }
+      ]
+    }
+
+  ]
+}
