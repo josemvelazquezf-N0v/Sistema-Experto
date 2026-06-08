@@ -12,3 +12,7 @@ Ahora si de de debis me voy a poner a chambiar, ya vincule mi git a visual y voy
 06/06/2026
 
 comiit diarioo AHHH
+
+07/06/2026
+
+comiit diarioo AHHH
