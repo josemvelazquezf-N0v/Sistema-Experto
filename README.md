@@ -28,3 +28,7 @@ Commiit
 11/06/2026
 
  Nopuedeser
+
+12/06/2026
+
+NNmanches, hoy si le avance pero lo tenia en el visual de la comoutadoras y se me fue la luz y ando haciendo commit a oscuras, cuando regrese hago el commit de a debis
