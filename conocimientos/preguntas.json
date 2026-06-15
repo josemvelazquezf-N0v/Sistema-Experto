@@ -53,7 +53,6 @@
     {
       "id": "procesos_quimicos",
       "texto": "¿Las sustancias químicas peligrosas forman parte de un proceso productivo continuo (no solo almacenamiento)?",
-      "condicion_previa": "maneja_quimicos",
       "opciones": [
         { "etiqueta": "Sí, proceso continuo con químicos peligrosos", "valor": "si_continuo"  },
         { "etiqueta": "Sí, uso ocasional en procesos",                "valor": "si_ocasional" },
@@ -101,9 +100,9 @@
       "id": "soldadura_corte",
       "texto": "¿Se realizan actividades de soldadura, corte con flama o corte con arco eléctrico?",
       "opciones": [
-        { "etiqueta": "Sí, de forma habitual",   "valor": "si_habitual"   },
-        { "etiqueta": "Sí, de forma ocasional",  "valor": "si_ocasional"  },
-        { "etiqueta": "No",                      "valor": "no"            }
+        { "etiqueta": "Sí, de forma habitual",  "valor": "si_habitual"  },
+        { "etiqueta": "Sí, de forma ocasional", "valor": "si_ocasional" },
+        { "etiqueta": "No",                     "valor": "no"           }
       ]
     },
 
@@ -150,15 +149,15 @@
       "id": "agentes_quimicos_aire",
       "texto": "¿Existen agentes químicos contaminantes en el aire del área de trabajo (polvos, humos, vapores, nieblas, gases)?",
       "opciones": [
-        { "etiqueta": "Sí, de forma habitual en el proceso productivo", "valor": "si_habitual"  },
-        { "etiqueta": "Sí, de forma esporádica",                        "valor": "si_esporadico"},
-        { "etiqueta": "No",                                             "valor": "no"           }
+        { "etiqueta": "Sí, de forma habitual en el proceso productivo", "valor": "si_habitual"   },
+        { "etiqueta": "Sí, de forma esporádica",                        "valor": "si_esporadico" },
+        { "etiqueta": "No",                                             "valor": "no"            }
       ]
     },
 
     {
       "id": "radiacion_ionizante",
-      "texto": "¿Se utilizan fuentes de radiación ionizante (equipos de rayos X industriales o médicos, materiales radiactivos, aceleradores)?",
+      "texto": "¿Se utilizan fuentes de radiación ionizante (equipos de rayos X industriales, materiales radiactivos, aceleradores)?",
       "opciones": [
         { "etiqueta": "Sí", "valor": "si" },
         { "etiqueta": "No", "valor": "no" }
@@ -176,7 +175,7 @@
 
     {
       "id": "presiones_anormales",
-      "texto": "¿Se realizan trabajos en ambientes con presión diferente a la atmosférica normal (buceo, cámaras hiperbáricas, trabajos en altitud extrema)?",
+      "texto": "¿Se realizan trabajos en ambientes con presión diferente a la atmosférica normal (buceo, cámaras hiperbáricas, altitud extrema)?",
       "opciones": [
         { "etiqueta": "Sí", "valor": "si" },
         { "etiqueta": "No", "valor": "no" }
@@ -187,10 +186,10 @@
       "id": "condiciones_termicas",
       "texto": "¿Los trabajadores están expuestos a condiciones térmicas extremas de forma habitual?",
       "opciones": [
-        { "etiqueta": "Sí, calor extremo (hornos, fundición, trabajo exterior en verano)", "valor": "calor"  },
-        { "etiqueta": "Sí, frío extremo (cámaras frigoríficas, trabajo en zonas frías)",   "valor": "frio"   },
-        { "etiqueta": "Ambos según el área o temporada",                                   "valor": "ambos"  },
-        { "etiqueta": "No",                                                                "valor": "no"     }
+        { "etiqueta": "Sí, calor extremo (hornos, fundición, trabajo exterior en verano)", "valor": "calor" },
+        { "etiqueta": "Sí, frío extremo (cámaras frigoríficas, trabajo en zonas frías)",   "valor": "frio"  },
+        { "etiqueta": "Ambos según el área o temporada",                                   "valor": "ambos" },
+        { "etiqueta": "No",                                                                "valor": "no"    }
       ]
     },
 
@@ -209,15 +208,15 @@
       "id": "iluminacion",
       "texto": "¿Existen áreas de trabajo donde la iluminación pudiera ser insuficiente para las tareas realizadas?",
       "opciones": [
-        { "etiqueta": "Sí, hay áreas con iluminación claramente deficiente",  "valor": "si_deficiente" },
-        { "etiqueta": "No se ha evaluado formalmente",                        "valor": "no_evaluado"   },
-        { "etiqueta": "No, la iluminación es adecuada en todas las áreas",    "valor": "adecuada"      }
+        { "etiqueta": "Sí, hay áreas con iluminación claramente deficiente", "valor": "si_deficiente" },
+        { "etiqueta": "No se ha evaluado formalmente",                       "valor": "no_evaluado"   },
+        { "etiqueta": "No, la iluminación es adecuada en todas las áreas",   "valor": "adecuada"      }
       ]
     },
 
     {
       "id": "trabajo_pantallas",
-      "texto": "¿Los trabajadores usan computadoras, tablets u otras pantallas de visualización más de 4 horas continuas por jornada?",
+      "texto": "¿Los trabajadores usan computadoras, tablets u otras pantallas más de 4 horas continuas por jornada?",
       "opciones": [
         { "etiqueta": "Sí, la mayoría del tiempo de la jornada", "valor": "si_mayoria" },
         { "etiqueta": "Sí, aproximadamente la mitad de jornada", "valor": "si_mitad"   },
@@ -229,15 +228,15 @@
       "id": "manejo_manual_cargas",
       "texto": "¿Los trabajadores levantan, empujan, jalan o cargan materiales de forma manual y repetitiva?",
       "opciones": [
-        { "etiqueta": "Sí, cargas pesadas (más de 25 kg) de forma habitual",      "valor": "si_pesado"    },
-        { "etiqueta": "Sí, cargas moderadas con movimientos repetitivos",         "valor": "si_moderado"  },
-        { "etiqueta": "No, el manejo de materiales es principalmente mecanizado",  "valor": "no"           }
+        { "etiqueta": "Sí, cargas pesadas (más de 25 kg) de forma habitual",     "valor": "si_pesado"   },
+        { "etiqueta": "Sí, cargas moderadas con movimientos repetitivos",        "valor": "si_moderado" },
+        { "etiqueta": "No, el manejo de materiales es principalmente mecanizado", "valor": "no"         }
       ]
     },
 
     {
       "id": "modalidad_teletrabajo",
-      "texto": "¿Hay trabajadores que laboran desde su domicilio u otro lugar fuera del centro de trabajo al menos el 40% de su jornada?",
+      "texto": "¿Hay trabajadores que laboran desde su domicilio al menos el 40% de su jornada?",
       "opciones": [
         { "etiqueta": "Sí", "valor": "si" },
         { "etiqueta": "No", "valor": "no" }
@@ -246,11 +245,11 @@
 
     {
       "id": "factores_psicosociales",
-      "texto": "¿Se han identificado o reportado situaciones de carga de trabajo excesiva, acoso laboral, jornadas extensas o violencia en el trabajo?",
+      "texto": "¿Se han identificado situaciones de carga de trabajo excesiva, acoso laboral, jornadas extensas o violencia en el trabajo?",
       "opciones": [
-        { "etiqueta": "Sí, han sido reportadas formalmente",         "valor": "si_reportado"  },
-        { "etiqueta": "Hay indicios pero no reportes formales",      "valor": "si_indicios"   },
-        { "etiqueta": "No se han identificado",                      "valor": "no"            }
+        { "etiqueta": "Sí, han sido reportadas formalmente",    "valor": "si_reportado" },
+        { "etiqueta": "Hay indicios pero no reportes formales", "valor": "si_indicios"  },
+        { "etiqueta": "No se han identificado",                 "valor": "no"           }
       ]
     }
 

@@ -1,0 +1,6 @@
+# Runtime del sistema experto — zero dependencias externas (solo stdlib Python)
+# El sistema corre con python main.py sin instalar nada.
+
+# ── Fase 2: dev tool PDF extractor ──────────────────────────────────────────
+# Descomentar cuando se implemente fuente_datos/extraer_texto.py:
+# pdfplumber>=0.11.0

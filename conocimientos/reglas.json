@@ -2,6 +2,10 @@
   "reglas": [
 
     {
+      "_seccion": "======== SEGURIDAD (12 normas) ========"
+    },
+
+    {
       "id": "R-SEG-01",
       "descripcion": "NOM-001 aplica a cualquier centro de trabajo con instalaciones físicas",
       "condiciones": {},
@@ -15,7 +19,7 @@
         "Mantener instalaciones eléctricas en condiciones seguras",
         "Contar con espacios de trabajo con dimensiones suficientes para el movimiento seguro"
       ],
-      "resumen": "Regula las condiciones mínimas de seguridad estructural en cualquier centro de trabajo: superficies de trabajo, escaleras, pasillos, salidas de emergencia, instalaciones eléctricas y ventilación. Es la norma base de infraestructura — no depende del giro ni del tamaño, aplica a toda instalación física donde laboren trabajadores."
+      "resumen": "Regula las condiciones mínimas de seguridad estructural en cualquier centro de trabajo: superficies, escaleras, pasillos, salidas de emergencia, instalaciones eléctricas y ventilación. Es la norma base de infraestructura — no depende del giro ni del tamaño, aplica a toda instalación física donde laboren trabajadores."
     },
 
     {
@@ -33,7 +37,7 @@
         "Señalizar rutas de evacuación y salidas de emergencia",
         "Integrar y capacitar brigadas contra incendio",
         "Realizar simulacros de evacuación al menos una vez al año",
-        "Los extintores deben cumplir NOM-106-STPS-2014 (norma de producto)"
+        "Los extintores deben cumplir NOM-106-STPS-2014"
       ],
       "resumen": "Establece requisitos para prevenir y combatir incendios. Cubre detección temprana, sistemas de extinción, rutas de evacuación y brigadas de respuesta. Aplica cuando el centro de trabajo maneja materiales inflamables, combustibles o tiene procesos que generan calor, chispa o flama."
     },
@@ -52,9 +56,9 @@
         "Elaborar procedimientos de operación segura por tipo de máquina",
         "Capacitar y autorizar formalmente a cada operador",
         "Realizar y documentar mantenimiento preventivo con registros",
-        "Implementar procedimiento de bloqueo de energía para mantenimiento"
+        "Implementar procedimiento de bloqueo de energía (lockout) para mantenimiento"
       ],
-      "resumen": "Regula los sistemas de protección en maquinaria y equipo para evitar contacto con partes móviles, atrapamientos, proyecciones y descargas eléctricas. Aplica durante operación, ajuste, limpieza y mantenimiento. La autorización formal del operador es un requisito explícito verificado en inspecciones."
+      "resumen": "Regula los sistemas de protección en maquinaria y equipo para evitar contacto con partes móviles, atrapamientos, proyecciones y descargas eléctricas. Aplica durante operación, ajuste, limpieza y mantenimiento. La autorización formal del operador es un requisito verificado en inspecciones."
     },
 
     {
@@ -68,12 +72,12 @@
       "categoria": "Seguridad",
       "obligaciones": [
         "Elaborar estudio de las condiciones de seguridad para cada sustancia",
-        "Contar con Hojas de Datos de Seguridad (SDS/HDS) accesibles para los trabajadores",
+        "Contar con Hojas de Datos de Seguridad (SDS/HDS) accesibles en punto de uso",
         "Capacitar a trabajadores sobre riesgos y medidas preventivas de cada sustancia",
         "Proporcionar EPP específico para cada químico manejado",
         "Tener procedimientos documentados para emergencias por derrame o exposición"
       ],
-      "resumen": "Regula el manejo, transporte y almacenamiento de sustancias químicas peligrosas. Exige identificar y comunicar los riesgos de cada sustancia (inflamabilidad, toxicidad, reactividad, corrosividad) y tener procedimientos de emergencia. Las SDS deben estar en español y ser accesibles en el punto de uso."
+      "resumen": "Regula el manejo, transporte y almacenamiento de sustancias químicas peligrosas. Exige identificar y comunicar los riesgos de cada sustancia (inflamabilidad, toxicidad, reactividad, corrosividad) y tener procedimientos de emergencia. Las SDS deben estar en español y accesibles en el punto de uso."
     },
 
     {
@@ -87,8 +91,8 @@
       "categoria": "Seguridad",
       "obligaciones": [
         "Establecer programa de mantenimiento preventivo para cada equipo de carga",
-        "Elaborar procedimientos de operación segura por tipo de equipo (montacargas, grúa, banda)",
-        "Evaluar y certificar competencia de cada operador por tipo de maquinaria",
+        "Elaborar procedimientos de operación segura por tipo de equipo",
+        "Evaluar y certificar competencia de cada operador específicamente por tipo de maquinaria",
         "Realizar inspección diaria del equipo antes de cada uso y registrarla",
         "Señalizar capacidad máxima de carga en cada equipo"
       ],
@@ -130,7 +134,7 @@
         "Capacitar y autorizar a los operadores de calderas",
         "Llevar bitácora de operación y mantenimiento de cada equipo"
       ],
-      "resumen": "Regula el funcionamiento seguro de recipientes a presión, calderas y equipos criogénicos para prevenir explosiones y fugas. El registro ante la STPS es obligatorio antes de operar el equipo. Las pruebas de integridad tienen periodicidad definida en la norma según el tipo y antigüedad del equipo."
+      "resumen": "Regula el funcionamiento seguro de recipientes a presión, calderas y equipos criogénicos para prevenir explosiones y fugas. El registro ante la STPS es obligatorio antes de operar el equipo. Las pruebas de integridad tienen periodicidad definida según el tipo y antigüedad del equipo."
     },
 
     {
@@ -149,7 +153,7 @@
         "Realizar mediciones periódicas de resistencia a tierra y documentarlas",
         "Usar materiales antiestáticos en áreas de riesgo"
       ],
-      "resumen": "Controla la generación y acumulación de electricidad estática que puede causar incendios o explosiones. Aplica especialmente a industrias con solventes, pinturas, plásticos, textiles, harinas o polvos combustibles. La puesta a tierra y equipotencialización son los controles técnicos principales."
+      "resumen": "Controla la generación y acumulación de electricidad estática que puede causar incendios o explosiones. Aplica especialmente a industrias con solventes, pinturas, plásticos, textiles o polvos combustibles. La puesta a tierra y equipotencialización son los controles técnicos principales."
     },
 
     {
@@ -166,9 +170,9 @@
         "Proporcionar EPP completo: careta de soldador, guantes, ropa ignífuga, polainas",
         "Garantizar ventilación local exhaustora en áreas de soldadura",
         "Delimitar y señalizar el área de trabajo con pantallas protectoras",
-        "Verificar condiciones del equipo antes de cada jornada de trabajo"
+        "Verificar condiciones del equipo antes de cada jornada"
       ],
-      "resumen": "Regula las condiciones de seguridad e higiene en soldadura y corte. Los riesgos principales son: radiación UV e IR, quemaduras, inhalación de humos metálicos tóxicos, incendio y explosión. Aplica tanto a puestos fijos como a trabajos en campo. La ventilación es crítica para proteger contra humos de soldadura."
+      "resumen": "Regula las condiciones de seguridad e higiene en soldadura y corte. Riesgos principales: radiación UV e IR, quemaduras, inhalación de humos metálicos tóxicos, incendio y explosión. Aplica a puestos fijos y trabajos en campo. La ventilación es crítica para proteger contra humos de soldadura."
     },
 
     {
@@ -201,12 +205,12 @@
       "categoria": "Seguridad",
       "obligaciones": [
         "Identificar, clasificar y señalizar todos los espacios confinados",
-        "Expedir autorización por escrito al trabajador antes de cada entrada al espacio confinado (NOM-033 numeral 5.5 y 8.6)",
+        "Expedir autorización por escrito al trabajador antes de cada entrada (numeral 5.5 y 8.6)",
         "Evaluar la atmósfera interior antes y durante cada entrada (O₂, gases tóxicos, explosividad)",
         "Contar con equipo de rescate y un vigía externo durante toda la operación",
         "Capacitar y certificar a los trabajadores autorizados para entrar"
       ],
-      "resumen": "Regula el trabajo en espacios confinados: recintos con acceso restringido, ventilación deficiente y no diseñados para ocupación continua (tanques, fosas, silos, alcantarillas). El riesgo principal es la atmósfera peligrosa. Ningún trabajador puede entrar sin permiso de trabajo vigente firmado por el supervisor."
+      "resumen": "Regula el trabajo en espacios confinados: recintos con acceso restringido, ventilación deficiente y no diseñados para ocupación continua (tanques, fosas, silos, alcantarillas). El riesgo principal es la atmósfera peligrosa. Según el numeral 5.5, ningún trabajador puede entrar sin autorización por escrito vigente firmada por el supervisor."
     },
 
     {
@@ -226,6 +230,346 @@
         "Documentar las adecuaciones realizadas y su programa de mantenimiento"
       ],
       "resumen": "Establece condiciones de accesibilidad y seguridad para trabajadores con discapacidad motriz, visual, auditiva o intelectual. Va más allá de la rampa de acceso — incluye señalización accesible, rutas de evacuación adaptadas y capacitación del personal de apoyo en emergencias."
+    },
+
+    {
+      "_seccion": "======== SALUD (10 normas) ========"
+    },
+
+    {
+      "id": "R-SAL-01",
+      "descripcion": "NOM-010 aplica cuando hay agentes químicos contaminantes en el aire del área de trabajo",
+      "condiciones": {
+        "agentes_quimicos_aire": ["si_habitual", "si_esporadico"]
+      },
+      "conclusion": "aplica_NOM-010",
+      "nom": "NOM-010-STPS-2014",
+      "categoria": "Salud",
+      "obligaciones": [
+        "Reconocer y evaluar los agentes químicos contaminantes presentes en el ambiente laboral",
+        "Realizar mediciones de concentración de contaminantes y compararlas con VLE (valores límite de exposición)",
+        "Implementar medidas de control: ventilación, sustitución de sustancias, controles administrativos",
+        "Proporcionar EPP respiratorio adecuado al tipo de contaminante",
+        "Llevar programa de vigilancia a la salud de los trabajadores expuestos"
+      ],
+      "resumen": "Regula la exposición a agentes químicos contaminantes del ambiente laboral: polvos, humos, vapores, nieblas y gases. Establece los Valores Límite de Exposición (VLE) como referencia para evaluar el riesgo. Se distingue de NOM-005 en que esta regula la exposición por inhalación, no el manejo físico de los químicos."
+    },
+
+    {
+      "id": "R-SAL-02",
+      "descripcion": "NOM-011 aplica cuando hay exposición habitual a ruido durante la jornada",
+      "condiciones": {
+        "exposicion_ruido": ["si_continuo", "si_esporadico"]
+      },
+      "conclusion": "aplica_NOM-011",
+      "nom": "NOM-011-STPS-2001",
+      "categoria": "Salud",
+      "obligaciones": [
+        "Realizar estudio de ruido (medición del Nivel de Exposición a Ruido NER) en el centro de trabajo",
+        "Implementar medidas de control técnicas cuando NER supere 85 dB(A)",
+        "Proporcionar protección auditiva certificada cuando NER supere 85 dB(A)",
+        "Practicar audiometrías periódicas a los trabajadores expuestos",
+        "Llevar registro de resultados de mediciones y audiometrías"
+      ],
+      "resumen": "Establece los límites máximos de exposición a ruido (90 dB(A) para 8 horas) y las acciones para prevenir la Pérdida Auditiva Inducida por Ruido (PAIR). Obliga a medir el NER y aplicar la jerarquía de controles: eliminación, sustitución, controles de ingeniería, administrativos y EPP auditivo."
+    },
+
+    {
+      "id": "R-SAL-03",
+      "descripcion": "NOM-012 aplica cuando se utilizan fuentes de radiación ionizante",
+      "condiciones": {
+        "radiacion_ionizante": ["si"]
+      },
+      "conclusion": "aplica_NOM-012",
+      "nom": "NOM-012-STPS-2012",
+      "categoria": "Salud",
+      "obligaciones": [
+        "Registrar las fuentes de radiación ionizante ante la autoridad competente (CNSNS)",
+        "Implementar programa de protección radiológica con responsable designado",
+        "Realizar dosimetría personal a los trabajadores expuestos",
+        "Señalizar y delimitar las zonas de trabajo con radiación",
+        "Proporcionar EPP adecuado y mantener registros de dosis acumuladas por trabajador"
+      ],
+      "resumen": "Establece las condiciones de seguridad e higiene para trabajadores expuestos a radiaciones ionizantes (rayos X, gamma, alfa, beta). Aplica en industrias como medicina, minería, ensayos no destructivos y laboratorios. Requiere coordinación con la Comisión Nacional de Seguridad Nuclear y Salvaguardias (CNSNS)."
+    },
+
+    {
+      "id": "R-SAL-04",
+      "descripcion": "NOM-013 aplica cuando hay exposición habitual a radiación no ionizante",
+      "condiciones": {
+        "radiacion_no_ionizante": ["si"]
+      },
+      "conclusion": "aplica_NOM-013",
+      "nom": "NOM-013-STPS-1993",
+      "categoria": "Salud",
+      "obligaciones": [
+        "Identificar las fuentes de radiación no ionizante presentes en el centro de trabajo",
+        "Evaluar los niveles de exposición y compararlos con límites permisibles",
+        "Implementar controles de ingeniería: blindajes, distancia, tiempo de exposición",
+        "Proporcionar EPP específico para el tipo de radiación (lentes UV, ropa protectora)",
+        "Capacitar a los trabajadores sobre los riesgos de cada tipo de radiación"
+      ],
+      "resumen": "Regula la exposición a radiaciones no ionizantes: radiación ultravioleta, infrarroja, láser, microondas y radiofrecuencia. Aplica en trabajos de soldadura (UV/IR), uso de láseres industriales, hornos de microondas industriales y equipos de radiofrecuencia. Los efectos incluyen daño ocular, quemaduras y efectos térmicos en tejidos."
+    },
+
+    {
+      "id": "R-SAL-05",
+      "descripcion": "NOM-014 aplica cuando se realizan trabajos en ambientes con presión anormal",
+      "condiciones": {
+        "presiones_anormales": ["si"]
+      },
+      "conclusion": "aplica_NOM-014",
+      "nom": "NOM-014-STPS-2000",
+      "categoria": "Salud",
+      "obligaciones": [
+        "Realizar examen médico de aptitud antes de asignar trabajadores a estos ambientes",
+        "Implementar procedimientos de descompresión graduada para evitar la enfermedad de descompresión",
+        "Contar con cámara hiperbárica de rescate disponible o protocolo de acceso a una",
+        "Llevar registro de tiempos de exposición y profundidades por trabajador",
+        "Capacitar específicamente a los trabajadores en riesgos de presión anormal"
+      ],
+      "resumen": "Regula las condiciones de seguridad para trabajos en ambientes con presión diferente a la atmosférica: buceo, trabajos en cajones neumáticos, cámaras hiperbáricas y trabajo en altitud extrema. El riesgo principal es la enfermedad de descompresión (embolias gaseosas). Es una de las NOMs más especializadas."
+    },
+
+    {
+      "id": "R-SAL-06",
+      "descripcion": "NOM-015 aplica cuando hay exposición a condiciones térmicas extremas",
+      "condiciones": {
+        "condiciones_termicas": ["calor", "frio", "ambos"]
+      },
+      "conclusion": "aplica_NOM-015",
+      "nom": "NOM-015-STPS-2001",
+      "categoria": "Salud",
+      "obligaciones": [
+        "Evaluar el estrés térmico mediante el índice TGBH (Temperatura de Globo y Bulbo Húmedo)",
+        "Implementar medidas de control: ventilación, aislamiento térmico, rotación de personal",
+        "Proporcionar agua fresca y electrolitos a trabajadores expuestos a calor extremo",
+        "Realizar exámenes médicos periódicos a trabajadores en ambientes térmicos extremos",
+        "Capacitar en reconocimiento de síntomas de golpe de calor o hipotermia"
+      ],
+      "resumen": "Establece condiciones de seguridad e higiene en centros de trabajo con exposición a condiciones térmicas elevadas (hornos, fundición, trabajo exterior en verano) o abatidas (cámaras frigoríficas, zonas frías). El índice TGBH es el instrumento de medición de referencia para evaluar el estrés por calor."
+    },
+
+    {
+      "id": "R-SAL-07",
+      "descripcion": "NOM-024 aplica cuando los trabajadores operan equipos que transmiten vibraciones",
+      "condiciones": {
+        "exposicion_vibraciones": ["cuerpo_completo", "mano_brazo", "ambos"]
+      },
+      "conclusion": "aplica_NOM-024",
+      "nom": "NOM-024-STPS-2001",
+      "categoria": "Salud",
+      "obligaciones": [
+        "Identificar las fuentes de vibración y evaluar los niveles de exposición",
+        "Medir la aceleración de vibraciones en mano-brazo y/o cuerpo completo según aplique",
+        "Implementar controles: mantenimiento de equipos, amortiguadores, rotación de personal",
+        "Proporcionar EPP antivibratorio cuando aplique (guantes, asientos amortiguados)",
+        "Realizar vigilancia médica periódica con énfasis en sistema musculoesquelético y circulatorio"
+      ],
+      "resumen": "Regula la exposición a vibraciones mecánicas. Distingue dos tipos: vibraciones mano-brazo (herramientas manuales vibratorias — riesgo de síndrome de vibración mano-brazo) y vibraciones de cuerpo completo (vehículos, maquinaria pesada — riesgo de lumbalgia y daño a columna vertebral)."
+    },
+
+    {
+      "id": "R-SAL-08",
+      "descripcion": "NOM-025 aplica a cualquier centro de trabajo — la iluminación siempre debe evaluarse",
+      "condiciones": {},
+      "conclusion": "aplica_NOM-025",
+      "nom": "NOM-025-STPS-2008",
+      "categoria": "Salud",
+      "obligaciones": [
+        "Realizar estudio de iluminación en todas las áreas del centro de trabajo",
+        "Garantizar los niveles mínimos de iluminación según el tipo de tarea (tabla de la norma)",
+        "Eliminar deslumbramiento, sombras excesivas y parpadeo en áreas de trabajo",
+        "Mantener y limpiar los sistemas de iluminación periódicamente",
+        "Documentar los resultados del estudio y las acciones correctivas aplicadas"
+      ],
+      "resumen": "Establece los niveles mínimos de iluminación requeridos según el tipo de tarea visual: desde 100 lux para almacenes hasta 1000 lux para trabajos de precisión. Aplica a todos los centros de trabajo sin excepción. Una iluminación inadecuada es causa directa de fatiga visual, errores y accidentes."
+    },
+
+    {
+      "id": "R-SAL-09",
+      "descripcion": "NOM-035 aplica a cualquier centro de trabajo sin importar tamaño o giro",
+      "condiciones": {},
+      "conclusion": "aplica_NOM-035",
+      "nom": "NOM-035-STPS-2018",
+      "categoria": "Salud",
+      "obligaciones": [
+        "Establecer política de prevención de riesgos psicosociales por escrito",
+        "Identificar y analizar los factores de riesgo psicosocial presentes",
+        "Adoptar medidas para prevenir y controlar los factores de riesgo identificados",
+        "Difundir información a los trabajadores sobre factores de riesgo psicosocial"
+      ],
+      "resumen": "Identifica, analiza y previene los factores de riesgo psicosocial: carga excesiva de trabajo, falta de control, jornadas extensas, interferencia trabajo-familia, liderazgo negativo y violencia laboral. Aplica a TODOS los centros de trabajo en México sin excepción de tamaño o giro desde octubre 2019."
+    },
+
+    {
+      "id": "R-SAL-09B",
+      "descripcion": "NOM-035 con obligaciones extendidas para centros con más de 15 trabajadores",
+      "condiciones": {
+        "num_trabajadores": ["16_a_100", "mas_de_100"]
+      },
+      "conclusion": "NOM-035_obligaciones_extendidas",
+      "nom": "NOM-035-STPS-2018",
+      "categoria": "Salud",
+      "obligaciones": [
+        "Aplicar la Guía de Referencia II para identificación y análisis de factores de riesgo psicosocial",
+        "Evaluar el entorno organizacional favorable mediante instrumento formal",
+        "Llevar registro documentado de resultados de la evaluación",
+        "Diseñar e implementar acciones correctivas basadas en los resultados"
+      ],
+      "resumen": "Para centros con más de 15 trabajadores, la NOM-035 agrega obligaciones de evaluación formal con instrumentos específicos (Guía de Referencia II). Los resultados deben documentarse y usarse para diseñar un programa de intervención. Esta evaluación debe repetirse cada dos años o cuando haya cambios organizacionales significativos."
+    },
+
+    {
+      "id": "R-SAL-10",
+      "descripcion": "NOM-036 aplica cuando hay manejo manual de cargas o uso intensivo de pantallas",
+      "condiciones": {
+        "manejo_manual_cargas": ["si_pesado", "si_moderado"]
+      },
+      "conclusion": "aplica_NOM-036_cargas",
+      "nom": "NOM-036-1-STPS-2018",
+      "categoria": "Salud",
+      "obligaciones": [
+        "Identificar los puestos con factores de riesgo ergonómico por manejo manual de cargas",
+        "Evaluar los factores de riesgo: peso, frecuencia, postura, distancia de carga",
+        "Implementar controles: mecanización, rediseño de tareas, rotación de personal",
+        "Capacitar a los trabajadores en técnicas correctas de levantamiento",
+        "Realizar vigilancia médica con énfasis en sistema musculoesquelético"
+      ],
+      "resumen": "La NOM-036 Parte 1 regula los factores de riesgo ergonómico por manejo manual de cargas que pueden causar Trastornos Musculoesqueléticos (TME): posturas forzadas, movimientos repetitivos, fuerzas excesivas y vibración. La carga máxima recomendada para levantamiento manual es 25 kg para hombres y 15 kg para mujeres."
+    },
+
+    {
+      "id": "R-SAL-10B",
+      "descripcion": "NOM-036 aplica también cuando hay uso intensivo de pantallas de visualización",
+      "condiciones": {
+        "trabajo_pantallas": ["si_mayoria", "si_mitad"]
+      },
+      "conclusion": "aplica_NOM-036_pantallas",
+      "nom": "NOM-036-1-STPS-2018",
+      "categoria": "Salud",
+      "obligaciones": [
+        "Evaluar la ergonomía del puesto de trabajo con pantalla: monitor, teclado, silla, iluminación",
+        "Garantizar pausas activas de al menos 5 minutos por cada hora de trabajo continuo con pantalla",
+        "Ajustar la altura del monitor para que el tercio superior quede a nivel de los ojos",
+        "Proporcionar silla ergonómica con soporte lumbar ajustable",
+        "Incluir ejercicios de estiramiento en el programa de pausas activas"
+      ],
+      "resumen": "La NOM-036 también cubre el trabajo prolongado con pantallas de visualización (PVD), que genera fatiga visual, síndrome del túnel carpiano y problemas posturales. El diseño ergonómico del puesto de trabajo y las pausas activas son los controles principales para este tipo de exposición."
+    },
+
+    {
+      "_seccion": "======== ORGANIZACIÓN (6 normas) ========"
+    },
+
+    {
+      "id": "R-ORG-01",
+      "descripcion": "NOM-017 aplica a cualquier centro de trabajo donde se identifiquen factores de riesgo",
+      "condiciones": {},
+      "conclusion": "aplica_NOM-017",
+      "nom": "NOM-017-STPS-2024",
+      "categoria": "Organización",
+      "obligaciones": [
+        "Identificar los factores de riesgo presentes en cada puesto de trabajo",
+        "Seleccionar el EPP adecuado según el riesgo específico de cada puesto",
+        "Proporcionar el EPP de forma gratuita a los trabajadores que lo requieran",
+        "Capacitar a los trabajadores en el uso, mantenimiento y limitaciones del EPP",
+        "Supervisar el uso correcto y permanente del EPP en áreas que lo requieren"
+      ],
+      "resumen": "Establece los criterios para la selección, uso y manejo del Equipo de Protección Personal (EPP) en todos los centros de trabajo donde existan factores de riesgo. El EPP es el último recurso en la jerarquía de controles — primero se deben agotar controles de ingeniería y administrativos. El patrón está obligado a proporcionarlo sin costo para el trabajador."
+    },
+
+    {
+      "id": "R-ORG-02",
+      "descripcion": "NOM-018 aplica cuando se manejan sustancias químicas peligrosas — complementa NOM-005",
+      "condiciones": {
+        "maneja_quimicos": ["si"]
+      },
+      "conclusion": "aplica_NOM-018",
+      "nom": "NOM-018-STPS-2015",
+      "categoria": "Organización",
+      "obligaciones": [
+        "Implementar el sistema GHS (Sistema Globalmente Armonizado) para identificación de peligros",
+        "Etiquetar todos los recipientes con sustancias químicas peligrosas con pictogramas GHS",
+        "Contar con Hojas de Datos de Seguridad (HDS) en formato GHS de 16 secciones",
+        "Capacitar a los trabajadores en la lectura e interpretación de etiquetas y HDS",
+        "Mantener actualizado el inventario de sustancias químicas peligrosas"
+      ],
+      "resumen": "Establece el Sistema Armonizado de Identificación y Comunicación de Peligros (GHS) para sustancias químicas peligrosas. Complementa la NOM-005 en el aspecto de comunicación: define el formato de etiquetas con pictogramas internacionales y el formato estándar de 16 secciones para las Hojas de Datos de Seguridad (HDS)."
+    },
+
+    {
+      "id": "R-ORG-03",
+      "descripcion": "NOM-019 aplica a centros de trabajo con más de 15 trabajadores",
+      "condiciones": {
+        "num_trabajadores": ["16_a_100", "mas_de_100"]
+      },
+      "conclusion": "aplica_NOM-019",
+      "nom": "NOM-019-STPS-2011",
+      "categoria": "Organización",
+      "obligaciones": [
+        "Integrar una Comisión de Seguridad e Higiene con representantes del patrón y de los trabajadores",
+        "Elaborar el programa anual de recorridos de verificación de la Comisión",
+        "Investigar las causas de accidentes y enfermedades de trabajo ocurridos",
+        "Documentar actas de cada recorrido de la Comisión con firma de los integrantes",
+        "Registrar la Comisión ante la STPS en el sistema SIRCE"
+      ],
+      "resumen": "Regula la constitución, integración y funcionamiento de las Comisiones de Seguridad e Higiene. Estas comisiones son el órgano interno obligatorio de vigilancia del cumplimiento normativo. Para centros con más de 15 trabajadores es obligatorio. El registro ante la STPS se realiza a través del sistema SIRCE en línea."
+    },
+
+    {
+      "id": "R-ORG-04",
+      "descripcion": "NOM-026 aplica a cualquier centro de trabajo con instalaciones físicas",
+      "condiciones": {},
+      "conclusion": "aplica_NOM-026",
+      "nom": "NOM-026-STPS-2008",
+      "categoria": "Organización",
+      "obligaciones": [
+        "Señalizar tuberías con los colores de seguridad establecidos en la norma",
+        "Instalar señales de seguridad e higiene en todas las áreas que lo requieran",
+        "Usar los colores de seguridad normalizados: rojo (peligro/prohibición), amarillo (precaución), verde (condición segura), azul (obligación)",
+        "Mantener las señales limpias, visibles y en buen estado",
+        "Capacitar a los trabajadores en el significado de los colores y señales de seguridad"
+      ],
+      "resumen": "Establece los colores y señales de seguridad e higiene que deben usarse en los centros de trabajo, así como la identificación de riesgos en tuberías. Define el código de colores de seguridad internacional y los pictogramas normalizados. Aplica a cualquier instalación física — es la base del sistema visual de comunicación de riesgos."
+    },
+
+    {
+      "id": "R-ORG-05",
+      "descripcion": "NOM-028 aplica cuando hay procesos productivos continuos con sustancias químicas peligrosas",
+      "condiciones": {
+        "procesos_quimicos": ["si_continuo", "si_ocasional"]
+      },
+      "conclusion": "aplica_NOM-028",
+      "nom": "NOM-028-STPS-2012",
+      "categoria": "Organización",
+      "obligaciones": [
+        "Elaborar análisis de riesgo de proceso (ARP) para cada proceso con sustancias peligrosas",
+        "Implementar procedimientos de operación seguros para cada proceso",
+        "Establecer sistema de administración de cambios para modificaciones al proceso",
+        "Capacitar al personal en los procedimientos de operación y planes de emergencia",
+        "Realizar auditorías periódicas de seguridad en los procesos"
+      ],
+      "resumen": "Establece los elementos del sistema de administración de la seguridad en procesos con sustancias químicas peligrosas en cantidades de proceso. Va más allá del manejo físico (NOM-005) — regula la seguridad en el diseño, operación y mantenimiento de procesos donde los químicos pueden liberarse de forma accidental (derrames, explosiones, incendios de proceso)."
+    },
+
+    {
+      "id": "R-ORG-06",
+      "descripcion": "NOM-030 aplica a centros de trabajo con más de 15 trabajadores",
+      "condiciones": {
+        "num_trabajadores": ["16_a_100", "mas_de_100"]
+      },
+      "conclusion": "aplica_NOM-030",
+      "nom": "NOM-030-STPS-2009",
+      "categoria": "Organización",
+      "obligaciones": [
+        "Contar con servicios preventivos de seguridad y salud en el trabajo",
+        "Elaborar diagnóstico de las condiciones de seguridad e higiene del centro de trabajo",
+        "Establecer programa de seguridad y salud en el trabajo basado en el diagnóstico",
+        "Llevar registro de accidentes, incidentes y enfermedades de trabajo",
+        "Evaluar anualmente la efectividad del programa de seguridad y salud"
+      ],
+      "resumen": "Define las funciones y actividades de los servicios preventivos de seguridad y salud en el trabajo. Establece cómo deben organizarse estos servicios para identificar riesgos, elaborar programas preventivos y reducir accidentes. El diagnóstico inicial es el punto de partida obligatorio para cualquier programa de seguridad."
     }
 
   ]
